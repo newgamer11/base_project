@@ -1,0 +1,32 @@
+* {
+    box-sizing: content-box;
+}
+
+#block {
+    display: flex;
+    justify-content: flex-end;
+    height: 30vh;
+    font-size: 16 px;
+    width: 100 px;
+    border: double 5px black;
+}
+
+#block2 {
+    display: flex;
+    justify-content: flex-end;
+    height: 70vh;
+    font-size: 16 px;
+    width: 100 px;
+    border: double 5px black;
+
+}
+
+#m_block {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16 px;
+    width: 100 px;
+    border: double 5px blue;
+}
