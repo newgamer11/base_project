@@ -1,23 +1,20 @@
 #container1 {
     display: flex;
-    height: 300px;
     justify-content: space-between;
     -ms-flex-align: center;
-    border: 5px solid red; 
 
 }
 
 .box {
-    background-color: white;
-    border: 2px solid blue;
     justify-content: center;
-    margin-right: 10em;
-    margin-left: 5em;
+    margin-right: 3em;
+    margin-left: 3em;
+  
 }
 
 .answer {
-    background-color: lightgreen;
     padding: 10px;
+    text-align: center;
 }
 
 #block {
@@ -57,4 +54,25 @@
     justify-content: space-around;
     border: 5px solid red;
     align-items: center;
+}
+
+input{
+
+    border:none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 10em;
+    width: 1em;
+    text-align :center;
+    background: linear-gradient(180deg, #5EC6F5 0%, #007AFF 100%);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+#sub_btn{
+    box-shadow: 0px 0.8px 1.5px rgba(0, 0, 0, 0.1), 0px 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 32px;
+    background-color: #007AFF;
+
 }
