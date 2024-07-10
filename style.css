@@ -1,5 +1,21 @@
-* {
-    box-sizing: content-box;
+
+#container1 {
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    -ms-flex-align: center;
+}
+
+.box{
+    width: 300px;
+    background-color:cadetblue;
+    border: 2px solid blue;
+
+}
+
+.answer {
+    background-color: lightgreen;
+    padding: 10px;
 }
 
 #block {
@@ -30,3 +46,4 @@
     width: 100 px;
     border: double 5px blue;
 }
+
